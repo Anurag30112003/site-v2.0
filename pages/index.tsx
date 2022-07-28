@@ -5,7 +5,10 @@ import Image from 'next/image'
 const Home: NextPage = () => {
   return (
    <>
-   <div className='text-5xl  text-white text-center my-20'>
+    <Head>
+      <title>Anurag😎</title>
+    </Head>
+   <div className='text-5xl text-center my-20'>
    Hello World
    </div>
    </>
